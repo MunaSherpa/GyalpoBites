@@ -1,0 +1,92 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.food-pic{
+    width: 100%;
+    border-radius: 5px;
+    height: 20vh;
+    
+    
+}
+.menu-card{
+    display: block;
+    width: 20%;
+    background-color: white;
+    padding: 1rem 1rem 2rem 1rem;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    height: 45vh;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px skyblue;
+    margin-left: 3.5rem;
+}
+.desc{
+    /* padding-left: 2px; */
+    /* padding-right: 15px; */
+    /* padding-bottom: 5px; */
+    /* margin-top: 1rem;
+    margin-bottom: 1rem; */
+    width: 100%;
+    margin: 1rem 0 0rem 0 ;
+    height: 8vh;
+}
+.food-description{
+    text-align: left;
+    font-size: small;
+    height: 8vh;
+    text-align: justify;
+    word-spacing: -2px;
+    /* line-height:  1; */
+    
+}
+.food-price{
+    margin-top: 2px;
+    font-weight:500;
+    color: #f35555;
+}
+
+.btn{
+    margin: 1rem  1rem 1rem 4.2rem ;
+}
+.button{
+   color: black;
+   height: 10vh;
+   margin: 0rem 0rem 0rem 0rem;
+   border-color: #f35555;
+   border-style: solid;
+   border-width: 2px;
+   text-decoration: none;
+   padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+   border-radius: 6px;
+  
+}
+
+.button:hover{
+    background-color: #f35555;
+    color: white;
+}
+
+.menu-up{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.menu-down{
+    display: flex;
+    margin-top: 4rem;
+    padding-bottom: 3rem;
+}
+
+.food-name{
+    font-weight: 600;
+    font-size: larger;
+}
+
+.name-price{
+    display: flex;
+    justify-content: space-between;
+    
+}

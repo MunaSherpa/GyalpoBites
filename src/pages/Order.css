@@ -1,0 +1,105 @@
+.delivery{
+background: white;
+border: 1px solid black;
+height: 28rem;
+margin: 0 0 0 8rem;
+margin-top: 3rem;
+width: 38%;
+border-radius: 5px;
+}
+
+.payment{
+background: white;
+border: 1px solid black;
+height: 28rem;
+width: 38%;
+margin: -28rem 0 0 46rem;
+border-radius: 5px;
+
+}
+
+.deladd{
+    margin-left: 5rem;
+}
+.deliveryaddress{
+font-size: 2rem;
+font-weight: 40px;
+line-height: 2;
+color: black;
+margin-left: 10rem;
+margin-top: 1rem;
+}
+
+.deliveryname{
+    height: 3rem;
+    width: 15%;
+    margin-top: 3.5rem;
+}
+
+.deladdress{
+    height:3rem;
+    width: 15%;
+    margin-top: 2rem;
+}
+
+.deliveryphone{
+    height:3rem;
+    width: 15%;
+    margin-top: 2rem;
+}
+
+.textarea,
+text{
+    height: 100%;
+    width: 22rem;
+    border: none;
+    border-radius: 6px;
+    background: #F3F4FF;
+    font-size: 15px;
+    padding: 0 10px;
+    padding-top: 0.3rem;
+    margin: 0rem 0rem 0rem 1rem;
+    
+}
+
+.paymentoption{
+font-size: 2rem;
+font-weight: 40px;
+line-height: 2;
+color: black;
+margin-left: 10rem;
+margin-top: 1rem;
+}
+
+.cricle{
+    margin: -5rem 0 2.5rem 2rem;
+    
+}
+/* .paycricle{
+    margin: 2rem 0 2.5rem 2rem;
+    width: 30%;
+} */
+
+.cashondelivery{
+    margin: -1.5rem 0 0 5rem;
+    font-size: large;
+}
+
+.pay{
+    outline: none;
+    border: none;
+    background: crimson;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    font-size: 15px;
+    margin: 12rem 0 0 11.5rem;
+    cursor: pointer; 
+}
+
+.pay:active{
+    color: crimson;
+    background: none;
+    border: 1px solid crimson;
+  
+}

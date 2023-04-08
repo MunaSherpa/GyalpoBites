@@ -1,0 +1,98 @@
+
+.content{
+    
+    padding: 140px 60px 60px 70px;
+    
+}
+.left-side{
+    width: 26%;
+    margin-top: 3rem;
+
+}
+.left-side::before{
+    position: absolute;
+    content: '';
+    height: 60%;
+    width: 1px;
+    background: black;
+    margin-left: 25rem;  
+    margin-top: -3rem; 
+    
+}
+.details{
+    margin: 14px;
+    text-align: center;
+}
+.icon{
+    font-size: 30px;
+    color: #EF1D1D;
+    margin-bottom: 10px;
+}
+.box{
+    margin: -20rem 0rem 0rem 30rem;
+    width: 7rem;
+    padding-top: 1.5rem;
+    
+}
+
+.topic{
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.number{
+    font-size: smaller;
+    color: black;
+}
+.emailname{
+    font-size: smaller;
+    color: black;
+}
+.addressname{
+    font-size: smaller;
+    color: black;
+}
+
+.inputboxname{
+    height: 50px;
+    width: 100%;
+}
+
+.inputboxemail{
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+    
+}
+
+.input,
+textarea{
+    height: 100%;
+    width: 40rem;
+    border: none;
+    border-radius: 6px;
+    background: #F3F4FF;
+    font-size: 15px;
+    padding: 0 20px;
+    padding-top: 0.5rem;
+    margin: 0rem 0rem 0rem 1rem;
+    
+}
+
+.feedback{
+    height: 220px;
+    
+}
+input[type=submit]{
+    background-color: #EF1D1D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-top: 2rem;
+    margin-left: 15rem;
+}
+
+

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300;400;500;600;700&display=swap');
+
+.background-home{
+    
+    /* top: 0;
+    left: 0; */
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/logo5.jpg);
+    background-size:cover; 
+    
+    /* background-repeat: no-repeat; */
+    
+
+
+}
+
+.logo-text{
+    color: black;
+    font-size: 2.9rem;
+    margin-left: 1rem;
+    font-family: 'Merienda', cursive;
+}
+
+
+.links li a{
+    text-decoration: none;
+    margin: 0 0.7rem 0 1rem;
+   
+}
+
+.links li{
+    list-style-type: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.links{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.links-div{
+    margin-left: 50rem;
+    margin-top: 2rem;
+}
+
+
+
+
+
+
+
