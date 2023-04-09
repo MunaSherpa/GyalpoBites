@@ -47,6 +47,11 @@ form{
     
     
 }
+
+/* field input{
+    background-color: blue;
+} */
+
 .field input{
     outline: none;
     padding: 0 15px;
