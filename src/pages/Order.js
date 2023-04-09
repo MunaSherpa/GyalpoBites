@@ -1,7 +1,7 @@
 import React from 'react'
 import './Order.css'
 import Navbar from '../components/Navbar'
-import {BsCircle} from 'react-icons/bs'
+import Khalti from '../assets/Khalti.png'
 
 
 const Order = () => {
@@ -27,11 +27,19 @@ const Order = () => {
             </div>
             <div className='payment'>
               <p className='paymentoption'>Payment Option</p>
-              <BsCircle className='cricle'/>
-              <BsCircle className='paycricle'/>
-              <p className='cashondelivery'>Cash On Delivery</p>
-              <img src='../assets/khalti.png' alt='img'/>
+              <div className='pay-type'>
+                  <div className='option-one'>
+                    <input type='radio' className='check' name='option' value='cod' />
+                    <p className='cashondelivery'>Cash On Delivery</p>
+                  </div>
+                  <div className='option-two'>
+                    <input type='radio' className='check' name='option' value='khalti' />
+                   <img className='khaltiImg' src={Khalti} alt='img'/>
+                </div>
+              </div>
               <button className='pay'>Payment</button>
+
+              
             </div>
         </div>
     </>
